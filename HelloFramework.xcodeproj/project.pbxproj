@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2E313E5160B5F13009FC48E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2E313E4160B5F13009FC48E /* Foundation.framework */; };
+		C2E313EA160B5F13009FC48E /* HelloFramework.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C2E313E9160B5F13009FC48E /* HelloFramework.h */; };
+		C2E313EC160B5F13009FC48E /* HelloFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E313EB160B5F13009FC48E /* HelloFramework.m */; };
+		C2E313F4160B5F13009FC48E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2E313F3160B5F13009FC48E /* SenTestingKit.framework */; };
+		C2E313F6160B5F13009FC48E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2E313F5160B5F13009FC48E /* UIKit.framework */; };
+		C2E313F7160B5F13009FC48E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2E313E4160B5F13009FC48E /* Foundation.framework */; };
+		C2E313FA160B5F13009FC48E /* libHelloFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2E313E1160B5F13009FC48E /* libHelloFramework.a */; };
+		C2E31400160B5F13009FC48E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2E313FE160B5F13009FC48E /* InfoPlist.strings */; };
+		C2E31403160B5F13009FC48E /* HelloFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E31402160B5F13009FC48E /* HelloFrameworkTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2E313F8160B5F13009FC48E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2E313D8160B5F12009FC48E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2E313E0160B5F12009FC48E;
+			remoteInfo = HelloFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C2E313DF160B5F12009FC48E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				C2E313EA160B5F13009FC48E /* HelloFramework.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C2E313E1160B5F13009FC48E /* libHelloFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHelloFramework.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2E313E4160B5F13009FC48E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C2E313E8160B5F13009FC48E /* HelloFramework-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloFramework-Prefix.pch"; sourceTree = "<group>"; };
+		C2E313E9160B5F13009FC48E /* HelloFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloFramework.h; sourceTree = "<group>"; };
+		C2E313EB160B5F13009FC48E /* HelloFramework.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloFramework.m; sourceTree = "<group>"; };
+		C2E313F2160B5F13009FC48E /* HelloFrameworkTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloFrameworkTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2E313F3160B5F13009FC48E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C2E313F5160B5F13009FC48E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C2E313FD160B5F13009FC48E /* HelloFrameworkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloFrameworkTests-Info.plist"; sourceTree = "<group>"; };
+		C2E313FF160B5F13009FC48E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C2E31401160B5F13009FC48E /* HelloFrameworkTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloFrameworkTests.h; sourceTree = "<group>"; };
+		C2E31402160B5F13009FC48E /* HelloFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloFrameworkTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2E313DE160B5F12009FC48E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E313E5160B5F13009FC48E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2E313EE160B5F13009FC48E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E313F4160B5F13009FC48E /* SenTestingKit.framework in Frameworks */,
+				C2E313F6160B5F13009FC48E /* UIKit.framework in Frameworks */,
+				C2E313F7160B5F13009FC48E /* Foundation.framework in Frameworks */,
+				C2E313FA160B5F13009FC48E /* libHelloFramework.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2E313D6160B5F12009FC48E = {
+			isa = PBXGroup;
+			children = (
+				C2E313E6160B5F13009FC48E /* HelloFramework */,
+				C2E313FB160B5F13009FC48E /* HelloFrameworkTests */,
+				C2E313E3160B5F13009FC48E /* Frameworks */,
+				C2E313E2160B5F13009FC48E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2E313E2160B5F13009FC48E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2E313E1160B5F13009FC48E /* libHelloFramework.a */,
+				C2E313F2160B5F13009FC48E /* HelloFrameworkTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2E313E3160B5F13009FC48E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2E313E4160B5F13009FC48E /* Foundation.framework */,
+				C2E313F3160B5F13009FC48E /* SenTestingKit.framework */,
+				C2E313F5160B5F13009FC48E /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2E313E6160B5F13009FC48E /* HelloFramework */ = {
+			isa = PBXGroup;
+			children = (
+				C2E313E9160B5F13009FC48E /* HelloFramework.h */,
+				C2E313EB160B5F13009FC48E /* HelloFramework.m */,
+				C2E313E7160B5F13009FC48E /* Supporting Files */,
+			);
+			path = HelloFramework;
+			sourceTree = "<group>";
+		};
+		C2E313E7160B5F13009FC48E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2E313E8160B5F13009FC48E /* HelloFramework-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C2E313FB160B5F13009FC48E /* HelloFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2E31401160B5F13009FC48E /* HelloFrameworkTests.h */,
+				C2E31402160B5F13009FC48E /* HelloFrameworkTests.m */,
+				C2E313FC160B5F13009FC48E /* Supporting Files */,
+			);
+			path = HelloFrameworkTests;
+			sourceTree = "<group>";
+		};
+		C2E313FC160B5F13009FC48E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2E313FD160B5F13009FC48E /* HelloFrameworkTests-Info.plist */,
+				C2E313FE160B5F13009FC48E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2E313E0160B5F12009FC48E /* HelloFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2E31406160B5F13009FC48E /* Build configuration list for PBXNativeTarget "HelloFramework" */;
+			buildPhases = (
+				C2E313DD160B5F12009FC48E /* Sources */,
+				C2E313DE160B5F12009FC48E /* Frameworks */,
+				C2E313DF160B5F12009FC48E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloFramework;
+			productName = HelloFramework;
+			productReference = C2E313E1160B5F13009FC48E /* libHelloFramework.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C2E313F1160B5F13009FC48E /* HelloFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2E31409160B5F13009FC48E /* Build configuration list for PBXNativeTarget "HelloFrameworkTests" */;
+			buildPhases = (
+				C2E313ED160B5F13009FC48E /* Sources */,
+				C2E313EE160B5F13009FC48E /* Frameworks */,
+				C2E313EF160B5F13009FC48E /* Resources */,
+				C2E313F0160B5F13009FC48E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2E313F9160B5F13009FC48E /* PBXTargetDependency */,
+			);
+			name = HelloFrameworkTests;
+			productName = HelloFrameworkTests;
+			productReference = C2E313F2160B5F13009FC48E /* HelloFrameworkTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2E313D8160B5F12009FC48E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Nuclear Bunny Studios, LLC";
+			};
+			buildConfigurationList = C2E313DB160B5F12009FC48E /* Build configuration list for PBXProject "HelloFramework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C2E313D6160B5F12009FC48E;
+			productRefGroup = C2E313E2160B5F13009FC48E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2E313E0160B5F12009FC48E /* HelloFramework */,
+				C2E313F1160B5F13009FC48E /* HelloFrameworkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2E313EF160B5F13009FC48E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E31400160B5F13009FC48E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C2E313F0160B5F13009FC48E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2E313DD160B5F12009FC48E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E313EC160B5F13009FC48E /* HelloFramework.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2E313ED160B5F13009FC48E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E31403160B5F13009FC48E /* HelloFrameworkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2E313F9160B5F13009FC48E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2E313E0160B5F12009FC48E /* HelloFramework */;
+			targetProxy = C2E313F8160B5F13009FC48E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C2E313FE160B5F13009FC48E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2E313FF160B5F13009FC48E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2E31404160B5F13009FC48E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C2E31405160B5F13009FC48E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2E31407160B5F13009FC48E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/HelloFramework.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloFramework/HelloFramework-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C2E31408160B5F13009FC48E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/HelloFramework.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloFramework/HelloFramework-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C2E3140A160B5F13009FC48E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloFramework/HelloFramework-Prefix.pch";
+				INFOPLIST_FILE = "HelloFrameworkTests/HelloFrameworkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C2E3140B160B5F13009FC48E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloFramework/HelloFramework-Prefix.pch";
+				INFOPLIST_FILE = "HelloFrameworkTests/HelloFrameworkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2E313DB160B5F12009FC48E /* Build configuration list for PBXProject "HelloFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2E31404160B5F13009FC48E /* Debug */,
+				C2E31405160B5F13009FC48E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2E31406160B5F13009FC48E /* Build configuration list for PBXNativeTarget "HelloFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2E31407160B5F13009FC48E /* Debug */,
+				C2E31408160B5F13009FC48E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C2E31409160B5F13009FC48E /* Build configuration list for PBXNativeTarget "HelloFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2E3140A160B5F13009FC48E /* Debug */,
+				C2E3140B160B5F13009FC48E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2E313D8160B5F12009FC48E /* Project object */;
+}
