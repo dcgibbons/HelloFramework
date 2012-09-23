@@ -8,6 +8,4 @@
 
 #import <Foundation/Foundation.h>
 
-@interface HelloFramework : NSObject
-
-@end
+extern NSString* sayHello(const NSString* who);

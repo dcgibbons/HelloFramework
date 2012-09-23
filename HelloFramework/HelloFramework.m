@@ -8,6 +8,7 @@
 
 #import "HelloFramework.h"
 
-@implementation HelloFramework
-
-@end
+NSString* sayHello(const NSString* who)
+{
+    return [NSString stringWithFormat:@"Hello there, %@!", who];
+}

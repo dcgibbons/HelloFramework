@@ -16,6 +16,7 @@
 		C2E313FA160B5F13009FC48E /* libHelloFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2E313E1160B5F13009FC48E /* libHelloFramework.a */; };
 		C2E31400160B5F13009FC48E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2E313FE160B5F13009FC48E /* InfoPlist.strings */; };
 		C2E31403160B5F13009FC48E /* HelloFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E31402160B5F13009FC48E /* HelloFrameworkTests.m */; };
+		C2E3140D160B647F009FC48E /* HelloFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = C2E313E9160B5F13009FC48E /* HelloFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -147,6 +148,17 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		C2E3140C160B6479009FC48E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E3140D160B647F009FC48E /* HelloFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		C2E313E0160B5F12009FC48E /* HelloFramework */ = {
 			isa = PBXNativeTarget;
@@ -155,6 +167,7 @@
 				C2E313DD160B5F12009FC48E /* Sources */,
 				C2E313DE160B5F12009FC48E /* Frameworks */,
 				C2E313DF160B5F12009FC48E /* CopyFiles */,
+				C2E3140C160B6479009FC48E /* Headers */,
 			);
 			buildRules = (
 			);

@@ -7,6 +7,7 @@
 //
 
 #import "HelloFrameworkTests.h"
+#import "HelloFramework.h"
 
 @implementation HelloFrameworkTests
 
@@ -24,9 +25,11 @@
     [super tearDown];
 }
 
-- (void)testExample
+- (void)testFred
 {
-    STFail(@"Unit tests are not implemented yet in HelloFrameworkTests");
+    NSString* actual = sayHello(@"Fred");
+    NSString* expected = @"Hello there, Fred!";
+    STAssertEqualObjects(actual, expected, @"hello string did not match");
 }
 
 @end
